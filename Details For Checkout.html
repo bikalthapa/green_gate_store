@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="contact-type" content="text/html; charset-utf-8"/>
+
+        <meta name="viewport" content="width-device-width,initial-scale=1,mininmum-scale=1,maximum-scale=1,user-scalable=no">
+
+        <title>
+            
+            Details for Delivery
+        
+        </title>
+
+        <link href="Details For Checkout.css" rel="stylesheet" type="text/css" />
+        
+    
+
+        <script src="Details For Checkout.js"></script>
+
+    
+    </head>
+
+    <body>
+
+        <div class="contact-in">
+
+            <div class="contact-map">
+                <!--map image --->
+                <iframe src="https://www.google.com/maps/search/letang/@26.7381762,87.5034876,451m/data=!3m1!1e3?entry=ttu" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="contact-form">
+
+                <h1 align = 'center'>
+                    
+                    Details For Delivery
+                
+                </h1>
+
+                <div id="error_message"></div>
+
+                <form class = 'address_form' onsubmit="return validate_form();">
+
+                    <input type="text" placeholder="Name" class="contact-form-txt" id = 'name' required/>
+
+                    <input type="text" placeholder="Address" class="contact-form-txt" id = 'address' required/>
+
+                    <input type="text" placeholder="Email-ID" class="contact-form-txt" id = 'email' required/>
+
+                    <input type="text" placeholder="Locality/Apartment" class="contact-form-txt" required/>
+
+
+                    <input type="text" placeholder="Contact No." class="contact-form-txt" id = 'phone' required/>
+
+                    
+
+                    
+                    <button type="submit" class="contact-form-btn" id = 'submit'>
+
+                        <a href = 'Payment.html' style = "cursor: pointer; text-decoration: none; color: white;">
+                            
+                            Submit
+        
+                        </a>
+                    
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
